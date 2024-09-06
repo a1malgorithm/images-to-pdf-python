@@ -14,7 +14,7 @@ Pillow
 
 Installation:
 Clone the repository: git clone (https://github.com/a1malgorithm/images-to-pdf-python.git)
-Install the required libraries: pip install -r requirements.txt
+
 Run the application: python app.py
 
 Usage:
