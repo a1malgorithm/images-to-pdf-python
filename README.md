@@ -12,8 +12,6 @@ Python 3.x
 Tkinter
 Pillow
 
-Installation:
-Clone the repository: git clone (https://github.com/a1malgorithm/images-to-pdf-python.git)
 
 Run the application: python app.py
 
