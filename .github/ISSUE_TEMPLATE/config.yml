@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support documentation
+    url: ../../blob/main/SUPPORT.md
+    about: Please read the support guide before opening an issue.
+  - name: Sponsor via Ko‑fi
+    url: https://ko-fi.com/ahmedsyntax
+    about: If you find this useful, consider supporting development.

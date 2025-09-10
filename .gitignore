@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.dist-info/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDEs / Editors
+.idea/
+.vscode/
+*.swp
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Build / Dist
+build/
+dist/
+*.egg-info/
+

@@ -1,21 +1,45 @@
-Image-to-PDF Converter
-This Python application allows you to select multiple images from a folder and convert them into a single PDF file. Utilizing the powerful libraries in Python, this tool simplifies the process of creating a PDF document from a batch of images.
+Image2PDF GUI — Convert Images to a Single PDF
 
-Features:
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ahmedsyntax)
 
-Folder Selection: Easily select a folder containing images.
-Batch Conversion: Convert all images in the folder into a single PDF document.
-Image Order: Maintain the order of images as they appear in the folder.
-User-Friendly Interface: Built with Tkinter for a straightforward and intuitive user experience.
+Professional, user-friendly PyQt6 desktop app that converts images (JPG, JPEG, PNG, JFIF) into a single PDF. Polished UI with a blue gradient header and smooth workflow.
+
+Highlights:
+- Drag & drop images or folders directly.
+- Manual reordering via drag to set page order.
+- Batch add (folders/files), remove selected, clear list.
+- Natural sorting (1, 2, 10) with A→Z / Z→A controls.
+- PNG transparency flattened onto white automatically.
+- Optional resize: max width/height (px) while preserving aspect ratio.
+- DPI control for PDF page mapping.
+- Progress bar and cancel during conversion.
+- Optional “open after save”.
+
 Requirements:
-Python 3.x
-Tkinter
-Pillow
+- Python 3.8+
+- Pillow
+- PyQt6
 
-
-Run the application: python app.py
+Installation:
+- (Recommended) Create and activate a virtual environment.
+- Install dependencies: `pip install -r requirements.txt`.
 
 Usage:
-Open the application.
-Click the "Select Folder" button to choose the folder containing your images.
-Click the "Convert to PDF" button to generate the PDF file.
+- Run: `python main.py`
+- Click “Add Folder…” or “Add Files…”, or drop images/folder into the app.
+- Drag to reorder pages if needed.
+- Set optional resize/DPI, then “Convert to PDF…”.
+
+Notes:
+- Very large batches may consume significant memory (Pillow requires all pages in memory before saving). Consider resizing to reduce memory usage.
+
+Support:
+- Need help or found a bug? Open an issue from the template chooser: ../../issues/new/choose
+- See: SUPPORT.md for how to get support and request features.
+
+Contributing:
+- PRs are welcome. Please open a discussion/issue first for large changes.
+
+License:
+- Copyright (c) 2025 Ahmedsyntax (https://ahmedsyntax.com)
+- Licensed under the MIT License. See LICENSE for details.
